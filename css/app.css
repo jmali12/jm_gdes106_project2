@@ -1,0 +1,228 @@
+/* CODE FOR ACCESSIBLE SKIP LINK – DO NOT DELETE */
+
+.skip-link {
+  position: absolute;
+  padding: .5rem 1rem;
+  color: #fff;
+  background-color: #212121;
+  text-decoration: none;
+  z-index: 10;
+  transform: translateY(-100%);
+  transition: transform .3s ease-out;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+  outline: #fff solid .125rem;
+}
+
+@media print {
+  .skip-link {
+    display: none;
+  }
+}
+
+* {box-sizing:border-box}
+
+}
+.hero img {
+    width: 100%;
+  }
+
+  .hero .grid-x{
+    margin:0;
+  }
+
+  .layered-text{
+    display: grid;
+    place-items: center;
+   
+   
+  }
+
+  .layered-text * {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .layered-text h1{
+    color: #166088;
+    text-align: center;
+    font-size: 5rem;
+
+  }
+
+  .layered-text img{
+    height: 100%;
+  }
+
+  .layered-text .color-block {
+
+    background-color:rgba(0,0,0,0);
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .inner-text{
+    text-align: center;
+    width: 60%;
+  }
+
+ 
+  .inner-text h1{
+    font-family: "Anton", sans-serif;
+}
+
+
+.booking h1{
+  font-family: "Anton", sans-serif;
+  color: #166088;
+  text-align: center;
+  font-size: 3rem;
+
+}
+
+header{
+  font-family: "Anton", sans-serif;
+  font-size: 1.5rem;
+  color: #166088;
+}
+header a{
+  color: #166088;
+}
+header i{
+  color: #166088;
+}
+nav{
+  font-family: "Anton", sans-serif;
+  font-size: 2.5rem;
+}
+.main-menu nav {
+ background-color: #166088;
+ height: 50%;
+}
+.main-menu ul {
+ margin: 0;
+ padding: 0; 
+}
+.reveal a{
+  color: #dbe9ee;
+}
+.close-button{
+  color: #dbe9ee;
+  font-size: 2.5rem;
+}
+.story{
+  padding-top: 20px;
+}
+.story p{
+  font-family: "Source Sans Pro", sans-serif;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  color: #166088;
+  font-size: 1.5rem;
+}
+.story figcaption{
+  background-color: #166088;
+  color: #dbe9ee;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  opacity: 0.85;
+}
+.services{
+  padding: 10px;
+  margin: 10px;
+  align-content: center;
+}
+.services h1{
+  font-family: "Anton", sans-serif;
+  color: #166088;
+  font-size: 2rem;
+  padding: 10px;
+}
+.services button{
+  font-family: "Source Sans Pro", sans-serif;
+  color: #dbe9ee;
+  background-color: #166088;
+  align-content: center;
+}
+footer{
+  font-family: "Source Sans Pro", sans-serif;
+  color: #dbe9ee;
+  font-size: 1rem;
+  background-color: #166088;
+  align-content: center;
+}
+footer a{
+    font-size: 2rem;
+    color: #dbe9ee;
+    font-family: "Source Sans Pro", sans-serif;
+}
+h2{
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 2rem;
+  color: #dbe9ee;
+}
+footer .menu a{
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+footer .menu.social a{
+  padding: 0.5rem;
+}
+.services h2{
+  font-family: "Source Sans Pro", sans-serif;
+  color: #166088;
+  font-size: 1.5rem
+}
+.services a{
+  background-color: #166088;
+  color: #dbe9ee;
+  font-family: "Source Sans Pro", sans-serif;
+  align-content: center;
+}
+thead{
+  background-color: #166088;
+  color: #dbe9ee;
+  font-family: "Source Sans Pro", sans-serif;
+}
+thead .button{
+  color: #166088;
+  background-color: #dbe9ee;
+  font-family: "Source Sans Pro",sans-serif;
+}
+thead .submit{
+  color: #166088;
+  background-color: #dbe9ee;
+}
+.reveal h1{
+  font-family: "Anton", sans-serif;
+  text-align: center;
+  color: #dbe9ee;
+}
+.reveal{
+  background-color: #166088;
+  align-content: center;
+}
+.reveal h2{
+  font-family: "Source Sans Pro", sans-serif;
+  color: #dbe9ee;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.lodging h1{
+  font-family: "Anton", sans-serif;
+  color: #166088;
+  text-align: center;
+}
+.lodging h2{
+  font-family: "Source Sans Pro", sans-serif;
+  color: #166088;
+  text-align: center;
+  font-size: 2rem;
+}
